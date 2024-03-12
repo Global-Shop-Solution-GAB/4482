@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>
+    <DefaultPage>
+      <Header />
+      <Footer />
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>281</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>3</Height>
+      </Size>
+      <X>0</X>
+      <Y>281</Y>
+      <Width>24</Width>
+      <Height>3</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer />
+    <Header />
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>281</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.Preflight.Start</string>
+        <string>V.Global.sSerial.Declare(String)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sEmpStart.Declare(String)</string>
+        <string>V.Local.sWC.Declare(String)</string>
+        <string>V.Local.iRet.Declare(Long)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sEndTime.Declare(String)</string>
+        <string>V.Local.sJob.Declare(String)</string>
+        <string>V.Local.lHour.Declare(Long)</string>
+        <string>V.Local.lMinute.Declare(Long)</string>
+        <string>V.Local.lSeconds.Declare(Long)</string>
+        <string>V.Local.sPartID.Declare(String)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.sSerial.Declare(string)</string>
+        <string>V.Local.sDate.Declare(String)</string>
+        <string>V.Local.sTime.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass,999)</string>
+        <string>F.ODBC.Connection!conFW.OpenConnection("Driver={MySQL ODBC 5.3 ANSI Driver};Server=192.168.95.128;Port=3306;Database=factorywiz;User=gss;Password=gl0balsh0p;Option=3;")</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Caller.Hook)</string>
+        <string />
+        <string>	F.Intrinsic.Control.CaseElse</string>
+        <string>		'this is setup to run on Pre-Online Update, </string>
+        <string>		'we left it as else so it could be triggered from a custom menu item.</string>
+        <string>		f.Intrinsic.UI.InvokeWaitDialog("Polling Unattended Time from FactoryWiz","FactoryWiz to GSS Running...")</string>
+        <string>		f.Intrinsic.Control.CallSub(isrunning)</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select Job, Suffix From V_Job_Header Where  Date_Closed = '1900-01-01'","",V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("ATemp","con",V.Local.sSql,True)</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select Job, Suffix, Seq, Job+Suffix+Seq as JSS From V_Job_Operations","",V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("BTemp","con",V.Local.sSql,True)</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.ATemp.RowCount--,&gt;,-1,"AND",V.DataTable.BTemp.RowCount--,&gt;,-1)</string>
+        <string>			F.Intrinsic.Control.Try</string>
+        <string>				F.Data.Linq.Join("InnerJoin","DataTable","ATemp*!*A","DataTable","BTemp*!*B","A.Job = B.Job and A.Suffix = B.Suffix","B.Job*!*B.Suffix*!*B.Seq*!*B.JSS","","B.Job","","Machine",True)</string>
+        <string>			F.Intrinsic.Control.Catch</string>
+        <string>				'catching error if no records match in the join to allow program to continue running</string>
+        <string>			F.Intrinsic.Control.EndTry</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Data.DataTable.Close("BTemp")</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select a.CDLIID, b.CDPartID, rtrim(ucase(b.CDCnc)) CDCnc, A.CDLISerial, a.CDLIStart, a.CDLIFinish, a.CDLIOperator, a.CDLIGSProcessed from cyclelidata a left outer join cycledata b on a.CDLISerial = b.CDSerial Where a.CDLIGSProcessed = 0 and a.CDLISecs &gt; 0 and a.CDLIOperator = 'Unattended' and length(b.CDPartID) = 15","",V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("AMachine","conFW",V.Local.sSql,True)</string>
+        <string />
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.Machine.Exists,=,True)</string>
+        <string>			F.Intrinsic.Control.If(V.DataTable.Machine.RowCount--,&lt;&gt;,-1)</string>
+        <string>				F.Intrinsic.Control.If(V.DataTable.ATemp.RowCount--,&lt;&gt;,-1)</string>
+        <string>					F.Intrinsic.Control.Try</string>
+        <string>						F.Data.Linq.Join("InnerJoin","DataTable","Machine*!*M","DataTable","AMachine*!*A","M.JSS = A.CDPartID","A.CDLIID*!*M.Job*!*M.Suffix*!*M.Seq*!*A.CDCnc*!*A.CDLIStart*!*A.CDLIFinish*!*A.CDLIGSProcessed*!*A.CDLISerial","","A.CDCnc","","Factory",True)</string>
+        <string>					F.Intrinsic.Control.Catch</string>
+        <string />
+        <string>					F.Intrinsic.Control.EndTry</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.Machine.Exists,=,True)</string>
+        <string>			F.Data.DataTable.Close("Machine")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.ATemp.Exists,=,True)</string>
+        <string>			F.Data.DataTable.Close("ATemp")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select Employee, Comments_1, rtrim(ucase(Comments_2)) Comments_2 From V_Employee_Mstr","",V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("ATemp","con",V.Local.sSql,True)</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.Factory.Exists,=,True)</string>
+        <string>			F.Intrinsic.Control.If(V.DataTable.Factory.RowCount--,&lt;&gt;,-1)</string>
+        <string>				F.Intrinsic.Control.Try</string>
+        <string>					F.Data.Linq.Join("InnerJoin","DataTable","Factory*!*F","DataTable","ATemp*!*A","F.CDCnc = A.Comments_2","F.CDLIID*!*F.Job*!*F.Suffix*!*F.Seq*!*A.Employee*!*A.Comments_1*!*F.CDCnc*!*F.CDLIStart*!*F.CDLIFinish*!*F.CDLIGSProcessed*!*F.CDLISerial","","A.Employee","","Machine",True)</string>
+        <string>				F.Intrinsic.Control.Catch</string>
+        <string />
+        <string>				F.Intrinsic.Control.EndTry	</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Data.DataTable.Close("ATemp")</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.Machine.Exists,=,True)</string>
+        <string>			F.Intrinsic.Control.CallSub(upload_labor,"Operator","Machine")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataTable.AMachine.Exists,=,True)</string>
+        <string>			F.Intrinsic.Control.If(V.DataTable.AMachine.RowCount--,&lt;&gt;,-1)</string>
+        <string>				'changing CDLIGSProcessed to 1</string>
+        <string>				F.Data.DataTable.SetValue("AMachine",-1,"CDLIGSProcessed",1)</string>
+        <string>				F.Data.DataTable.SaveToDB("AMachine","conFW","CycleLIData","CDLIID",256,"CDLIID@!@CDLIID*!*CDLIGSProcessed@!@CDLIGSProcessed")</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(exit)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4482_Labor_Upload.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Exit)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Exit.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Exit_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!con.Close</string>
+        <string>F.ODBC.Connection!conFW.Close</string>
+        <string />
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Exit_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4482_Labor_Upload.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Exit.End</string>
+        <string />
+        <string>Program.Sub.Upload_Labor.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Upload_Labor_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFile.Declare(String)</string>
+        <string>V.Local.sLine.Declare(String)</string>
+        <string>V.Local.sUpdateDate.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.sStart.Declare(String)</string>
+        <string>V.Local.sEnd.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sEmp.Declare(String)</string>
+        <string>V.Local.lTemp.Declare(Long)</string>
+        <string>V.Local.sTemp.Declare(String)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string>V.Local.sStartTime.Declare(String)</string>
+        <string>V.Local.sEndTime.Declare(String)</string>
+        <string>V.Local.dEnd.Declare(Date)</string>
+        <string>V.Local.fTemp.Declare(Float)</string>
+        <string>V.Local.fMinutes.Declare(Float)</string>
+        <string />
+        <string>F.Intrinsic.String.Format(V.Ambient.Date,"MMDDYY",V.Local.sUpdateDate)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.Operator)</string>
+        <string>	F.Intrinsic.Control.Case("Machine")</string>
+        <string>		F.Intrinsic.Control.If(V.DataTable.Machine.Exists,=,True)</string>
+        <string>			F.Intrinsic.Control.If(V.DataView.Machine!Machine.Exists,=,True)</string>
+        <string>				F.Data.DataView.Close("Machine","Machine")</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>			'creating distinct datatable</string>
+        <string>			F.Data.DataView.Create("Machine","Machine")</string>
+        <string>			F.Data.DataView.ToDataTableDistinct("Machine","Machine","TempMachine","Employee",True)</string>
+        <string />
+        <string>			F.Intrinsic.Control.For(V.Local.iC,0,V.DataTable.TempMachine.RowCount--,1)</string>
+        <string>				F.Intrinsic.Control.If(V.DataView.Machine!Machine.Exists,=,True)</string>
+        <string>					F.Data.DataView.Close("Machine","Machine")</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>				'creating dataview for each employee to get combine time</string>
+        <string>				F.Intrinsic.String.Build("Employee = '{0}'",V.DataTable.TempMachine(V.Local.iC).Employee!FieldValTrim,V.Local.sFilter)</string>
+        <string>				F.Data.DataView.Create("Machine","Machine",22,V.Local.sFilter,"CDLIStart")</string>
+        <string>				'looping through Machine datatable and fliping process flag to processed.</string>
+        <string>				F.Intrinsic.Control.For(V.Local.i,0,V.DataView.Machine!Machine.RowCount--,1)</string>
+        <string>'					'getting employee number that was created for clocking machine time.</string>
+        <string>					F.Intrinsic.Control.If(V.Local.i,=,0)</string>
+        <string>						F.Intrinsic.String.Format(V.DataView.Machine!Machine(V.Local.i).CDLIStart!FieldValTrim,"HhNn",V.Local.sStartTime)</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>					F.Intrinsic.Date.DateDiff("N",V.DataView.Machine!Machine(V.Local.i).CDLIStart!FieldValTrim,V.DataView.Machine!Machine(V.Local.i).CDLIFinish!FieldValTrim,V.Local.fTemp)</string>
+        <string />
+        <string>					F.Intrinsic.Math.Add(V.Local.fMinutes,V.Local.fTemp,V.Local.fMinutes)</string>
+        <string />
+        <string>					F.Intrinsic.Control.If(V.Local.i,=,V.DataView.Machine!Machine.RowCount--)</string>
+        <string>						F.Intrinsic.Date.DateAdd("N",V.Local.fMinutes,V.DataView.Machine!Machine(0).CDLIStart!FieldValTrim,V.Local.dEnd)</string>
+        <string>						F.Intrinsic.String.Format(v.Local.dEnd,"HhNn",V.Local.sEndTime)</string>
+        <string>					F.Intrinsic.Control.EndIf</string>
+        <string>					'checking if the machine was only running for less than a min if so change it to show the machine was running for at least min.</string>
+        <string>					'there are times when the machine is running for less than a Min.</string>
+        <string />
+        <string>				F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>				F.Intrinsic.Control.If(V.Local.iC,=,0)</string>
+        <string>					'create line for upload</string>
+        <string>					F.Intrinsic.String.Build("{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}{0}{9}{0}{10}{0}{11}{0}{12}{0}{13}{0}{14}{0}{15}",V.Ambient.Tab,V.Local.sUpdateDate.Trim,V.DataTable.TempMachine(V.Local.iC).Employee!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Job!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Suffix!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Seq!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Comments_1!FieldValTrim,"0","N","D",V.Local.sStartTime,V.Local.sEndTime,"R","0","0","",V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					F.Intrinsic.String.Build("{16}{17}{1}{0}{2}{0}{3}{0}{4}{0}{5}{0}{6}{0}{7}{0}{8}{0}{9}{0}{10}{0}{11}{0}{12}{0}{13}{0}{14}{0}{15}",V.Ambient.Tab,V.Local.sUpdateDate.Trim,V.DataTable.TempMachine(V.Local.iC).Employee!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Job!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Suffix!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Seq!FieldValTrim,V.DataView.Machine!Machine(V.DataView.Machine!Machine.RowCount--).Comments_1!FieldValTrim,"0","N","D",V.Local.sStartTime,V.Local.sEndTime,"R","0","0","",V.Local.sLine,V.Ambient.NewLine,V.Local.sLine)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.Control.ExitSub</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>'Load labor details</string>
+        <string>F.Intrinsic.Control.If(V.Local.sLine.Trim,&lt;&gt;,"")</string>
+        <string>	F.Intrinsic.String.Build("{0}\{1}{2}MOPEN.txt",V.Caller.FilesDir,V.Caller.CompanyCode,V.Caller.Terminal,V.Local.sFile)</string>
+        <string>	F.Intrinsic.File.String2File(V.Local.sFile,V.Local.sLine)	</string>
+        <string>	F.Intrinsic.Task.LaunchGSSSync("JB0455","-c",V.Local.sFile)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Upload_Labor_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4482_Labor_Upload.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(exit)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Upload_Labor.End</string>
+        <string />
+        <string>Program.Sub.isRunning.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("isRunning_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>v.Local.sFile.Declare(string)</string>
+        <string>v.Local.i.Declare(Long)</string>
+        <string>v.Local.bCheck.Declare(Boolean)</string>
+        <string>v.Local.sText.Declare(String)</string>
+        <string />
+        <string />
+        <string>'we run the program async so it will not hold up online update - we check the PID and if it is stil running, we end the current program.</string>
+        <string>f.Intrinsic.String.Build("{0}\4482.pid",v.Caller.FilesDir,v.Local.sFile)</string>
+        <string>f.Intrinsic.File.Exists(v.Local.sFile,v.Local.bCheck)</string>
+        <string>f.Intrinsic.Control.If(v.Local.bCheck,=,True)</string>
+        <string>	f.Intrinsic.File.File2String(v.local.sFile,v.Local.sText)</string>
+        <string>	f.Intrinsic.Task.PIDRunning(v.Local.sText.Long,v.Local.bCheck)</string>
+        <string>	f.Intrinsic.Control.If(v.Local.bCheck,=,True)</string>
+        <string>		'end program</string>
+        <string>		F.Intrinsic.Control.CallSub(exit)</string>
+        <string />
+        <string>	f.Intrinsic.Control.Else</string>
+        <string>		'create file with current PID and continue running</string>
+        <string>		f.Intrinsic.File.String2File(v.Local.sFile,v.Ambient.PID)	</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>f.Intrinsic.Control.Else</string>
+        <string>	'create file with current PID and continue running</string>
+        <string>	f.Intrinsic.File.String2File(v.Local.sFile,v.Ambient.PID)</string>
+        <string>f.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("isRunning_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4482_Labor_Upload.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.isRunning.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$RLK$}$4/26/2017 1:31:01 PM$}$False</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$Hard code load Lot Bin Screen w/ length and Width.</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>226</WindowOriginY>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>2</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>4</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>117</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>119</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>141</Y>
+        </EndPoint>
+        <Text>Program.Sub.Exit</Text>
+        <DisplayText>Program.Sub.Exit</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>143</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>237</Y>
+        </EndPoint>
+        <Text>Program.Sub.Upload_Labor</Text>
+        <DisplayText>Program.Sub.Upload_Labor</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>239</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>279</Y>
+        </EndPoint>
+        <Text>Program.Sub.isRunning</Text>
+        <DisplayText>Program.Sub.isRunning</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>281</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>284</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
